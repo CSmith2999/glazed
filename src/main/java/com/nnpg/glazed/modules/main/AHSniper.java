@@ -154,7 +154,7 @@ public class AHSniper extends Module {
 
         this.targetItemName = this.sgGeneral.add(new StringSetting.Builder()
             .name("item-name")
-            .description("Custom search name for the /ah command.")
+            .description("Custom search name for the /ah search command.")
             .defaultValue("")
             .visible(() -> this.snipeMode.get() == SnipeMode.SINGLE)
             .build());
